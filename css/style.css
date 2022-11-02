@@ -1,28 +1,27 @@
-.header{
-    width: auto;
-    height: 200px;
-    background-color: #dfdfdf; 
-}
-    .row{
+.row{
     width: 100%;
     margin: 0 auto;
 }
+
 .topnav{
     background-color: white;
     overflow: hidden;
-    width: auto;
+    float: right;
+    height: 100px;
 }
+
 .topnav a{
  text-decoration: none;
  text-align: center;
  float: right;
- padding: 16px;
  padding: 16px 16px;
+ font-size: 14px;
 }
 
-.topnav imag{
+.topnav img{
     height: 100px;
 }
+
 
 .fa fa-search{
   font-size: 30px; 
@@ -65,6 +64,7 @@ li a{
     list-style-type: none;
     text-decoration: none;
     text-align: center;
+    padding-top: 40px;
 }
 
 .logo{
